@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0b0d;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b0b0d;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* components layer (Tailwind v4 ok) */
+@layer components {
+  .btn-primary {
+    @apply rounded-full px-5 py-3 text-sm font-medium bg-white text-black
+      hover:bg-white/90 transition;
+  }
+
+  .btn-dark {
+    @apply rounded-full px-5 py-3 text-sm font-medium
+      border border-white/15 bg-white/5 text-white
+      hover:bg-white/10 transition;
+  }
+}
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 6px;
+  height: 1px;
+  background: rgba(234, 227, 227, 0.35);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.9s ease-out;
+}
+.gold-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #d4af37,
+    #ffd700,
+    transparent
+  );
+  transform: translateX(-50%) translateY(-100%);
+  animation: goldDrop 2.2s ease-out infinite;
+  opacity: 0.9;
+}
+
+@keyframes goldDrop {
+  0% {
+    transform: translateX(-50%) translateY(-120%);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(120%);
+    opacity: 0;
+  }
+}
