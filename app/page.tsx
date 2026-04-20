@@ -134,9 +134,9 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-5">
             <div className="mb-3 text-center">
               <h2 className="text-xl font-bold leading-tight text-white md:text-3xl">
-                Residential or Commercial
+                Residential & Commercial
                 <br />
-                We Handle It All From Renovations , Smart home and security Solutions across Vancouver.
+                We handle it all from Renovations , Smart home and Security Solutions across Vancouver.
               </h2>
             </div>
 
@@ -356,7 +356,7 @@ export default function Home() {
           <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 p-6 md:p-10">
             <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Get a quote</h2>
             <p className="mt-2 text-sm text-white/70">
-              Send the details. I’ll reply fast with a clear estimate.
+              Send the details. We’ll reply fast with a clear estimate.
             </p>
 
             <form onSubmit={handleSubmit} className="mt-8">

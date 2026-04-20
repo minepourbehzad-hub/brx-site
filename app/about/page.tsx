@@ -7,7 +7,6 @@ export default function AboutPage() {
       <SectionBlock
         title="About"
         subtitle=""
-        ctaLabel="Get a quote"
         ctaHref="/contact"
       >
         <div className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8">
