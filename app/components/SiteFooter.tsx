@@ -59,7 +59,7 @@ export default function SiteFooter() {
               {/* Location */}
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>Vancouver, BC</span>
+                <span>North Vancouver, BC</span>
               </div>
 
               {/* Phone */}
