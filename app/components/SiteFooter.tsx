@@ -89,7 +89,7 @@ export default function SiteFooter() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <camera size={16} />
+                <Camera size={16} />
                 @brx.group
               </a>
 
