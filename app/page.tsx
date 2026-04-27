@@ -143,7 +143,7 @@ export default function Home() {
             <div className="relative mx-auto overflow-hidden rounded-3xl border border-white/10 bg-black/40 w-full max-w-[1400px] h-[420px] sm:h-[520px] md:h-[460px]">
               <img
                 src="/images/4 (1).jpg"
-                alt="BRX renovation and smart home services"
+                alt="Nestava renovation and smart home services"
                 className="h-full w-full object-cover bg-black"
               />
 
@@ -178,7 +178,7 @@ export default function Home() {
                   href="/about"
                   className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-center text-sm font-medium text-white hover:bg-white/10"
                 >
-                  About BRX
+                  About Nestava
                 </a>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/70 md:text-lg">
-              BRX delivers premium renovation, smart home integration, and security camera systems —
+              Nestava delivers premium renovation, smart home integration, and security camera systems —
               clean wiring, clean finishes, and reliable execution.
             </p>
 
@@ -230,7 +230,7 @@ export default function Home() {
                 href="/about"
                 className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-center text-sm font-medium text-white hover:bg-white/10"
               >
-                About BRX
+                About Nestava
               </a>
             </div>
 
@@ -497,7 +497,7 @@ function Card({ title, desc, bullets }: { title: string; desc: string; bullets: 
       </ul>
 
       <div className="mt-6 h-px w-full bg-white/10" />
-      <p className="mt-4 text-xs text-white/50">BRX standard • clean finish</p>
+      <p className="mt-4 text-xs text-white/50">Nestava standard • clean finish</p>
     </div>
   );
 }

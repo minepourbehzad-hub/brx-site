@@ -16,7 +16,7 @@ export default function ServicePageShell({
         {/* Top label */}
         <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/70">
           <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
-          BRX • Service
+          Nestora • Service
         </div>
 
         {/* Title */}
@@ -37,7 +37,7 @@ export default function ServicePageShell({
             >
               <div className="text-sm leading-6 text-white/85">{b}</div>
               <div className="mt-4 h-px w-full bg-white/10" />
-              <div className="mt-4 text-xs text-white/50">BRX standard</div>
+              <div className="mt-4 text-xs text-white/50">Nestora standard</div>
             </div>
           ))}
         </div>
@@ -70,7 +70,7 @@ export default function ServicePageShell({
             </div>
 
             <span className="hidden rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/60 md:inline-flex">
-              BRX 
+              Nestora 
             </span>
           </div>
 <img

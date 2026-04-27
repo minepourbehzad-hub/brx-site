@@ -83,10 +83,10 @@ export default function SiteHeader() {
         {/* Logo => Home */}
         <Link href="/" className="flex flex-col leading-none overflow-hidden">
   <span className="text-2xl md:text-3xl font-bold tracking-[0.28em] text-white">
-    BRX
+    Nestora
   </span>
   <span className="mt-1 text-[10px] md:text-xs tracking-[0.22em] text-white/60">
-    BUILD • RELIABLE • EXECUTION
+    BUILD • REFLINE • EXECUTION
   </span>
   
   
