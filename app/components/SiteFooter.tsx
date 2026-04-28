@@ -14,7 +14,7 @@ export default function SiteFooter() {
           {/* Brand */}
           <div>
             <div className="tracking-[0.35em] text-sm text-white">
-              Nestava
+              Nestora
             </div>
 
             <p className="mt-3 text-sm leading-6 text-white/60">
@@ -85,12 +85,12 @@ export default function SiteFooter() {
               {/* Instagram */}
               <a
                 className="flex items-center gap-3 hover:text-white"
-                href="https://instagram.com/'Nestava'.group"
+                href="https://instagram.com/'Nestora'.group"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Camera size={16} />
-                @Nestava.group
+                @Nestora.group
               </a>
 
               <Link
@@ -106,7 +106,7 @@ export default function SiteFooter() {
         {/* Bottom */}
         <div className="mt-10 flex items-center justify-between border-t border-white/10 pt-6 text-xs text-white/50">
           <div>
-            © {new Date().getFullYear()} Nestava Group. All rights reserved.
+            © {new Date().getFullYear()} Nestora Group. All rights reserved.
           </div>
 
           <div className="flex gap-4">
