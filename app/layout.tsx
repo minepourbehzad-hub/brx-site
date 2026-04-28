@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BRX | Premium Renovation & Tech",
+  title: "Nestora | Premium Renovation & Tech",
   description: "Premium renovation, smart home, and security solutions in Vancouver.",
 };
 

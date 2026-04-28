@@ -14,7 +14,7 @@ export default function VideoPlaceholder() {
       </div>
 
       <div className="flex items-center justify-between px-5 py-4 text-xs text-white/60">
-        <span>BRX • Hero video</span>
+        <span>Nestora • Hero video</span>
         <span>Coming soon</span>
       </div>
     </div>

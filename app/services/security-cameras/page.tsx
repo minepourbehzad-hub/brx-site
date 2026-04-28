@@ -7,7 +7,7 @@ export default function SecurityCamerasPage() {
         {/* Top label */}
         <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/70">
           <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
-          BRX • Security Cameras
+          Nestora • Security Cameras
         </div>
 
         {/* Title */}

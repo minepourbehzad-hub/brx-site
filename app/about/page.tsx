@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8">
 
           <p className="text-sm text-white/70 leading-relaxed">
-            BRX is a collective of licensed professionals and skilled specialists dedicated to delivering high-quality solutions for residential and commercial spaces across Vancouver.
+            Nestora is a collective of licensed professionals and skilled specialists dedicated to delivering high-quality solutions for residential and commercial spaces across Vancouver.
           </p>
 
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
@@ -28,7 +28,7 @@ export default function AboutPage() {
           </p>
 
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
-            Whether it’s a small upgrade or a full renovation, BRX is the team you can rely on to get the job done right.
+            Whether it’s a small upgrade or a full renovation, Nestora is the team you can rely on to get the job done right.
           </p>
 
 

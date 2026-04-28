@@ -5,7 +5,7 @@ export default function SmartHomePage() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/70">
             <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
-            BRX • Smart Home
+            Nestora • Smart Home
           </div>
 
           <h1 className="mt-6 text-3xl font-semibold tracking-tight md:text-5xl">
@@ -81,7 +81,7 @@ export default function SmartHomePage() {
               Clean installation and reliable performance
             </h2>
             <p className="text-sm leading-7 text-white/75 md:text-base">
-              At BRX, we focus on clean installation, proper setup, and systems
+              At Nestora, we focus on clean installation, proper setup, and systems
               that are easy to use. Our goal is to create smart home solutions
               that feel practical, dependable, and ready to grow with your needs.
             </p>
