@@ -71,9 +71,9 @@ export async function POST(req: Request) {
     const resend = new Resend(apiKey);
 
     const { data, error } = await resend.emails.send({
-      from: "BRX <onboarding@resend.dev>",
-      to: ["minepour.behzad@gmail.com"],
-      subject: `New BRX Quote Request – ${name}`,
+      from: "Nestora <onboarding@resend.dev>",
+      to: ["nestora@nestorarenovation.ca"],
+      subject: `New Nestora Quote Request – ${name}`,
       text: `Name: ${name}
 Contact: ${contact}
 City: ${city}
