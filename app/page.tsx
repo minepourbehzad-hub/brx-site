@@ -1,10 +1,5 @@
-
+"use client";
 import React, { useMemo, useState } from "react";
-export const metadata = {
-  title: "Nestora | Premium Renovation & Smart Home Vancouver",
-  description:
-    "Nestora provides premium renovation, smart home, and security camera installation services across Greater Vancouver.",
-};
 export default function Home() {
   const [form, setForm] = useState({
     name: "",
