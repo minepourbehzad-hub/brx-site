@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useMemo, useState } from "react";
 export const metadata = {
   title: "Nestora | Premium Renovation & Smart Home Vancouver",
