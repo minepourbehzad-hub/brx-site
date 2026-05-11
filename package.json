@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint" ,
+    "lint": "eslint",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
@@ -15,7 +15,8 @@
     "next-sitemap": "^4.2.3",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "resend": "^6.8.0"
+    "resend": "^6.8.0",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
