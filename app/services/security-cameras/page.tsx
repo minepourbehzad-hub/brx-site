@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Security Camera Installation Vancouver | Nestora",
+  description:
+    "Professional security camera installation for homes and businesses in Vancouver. Clean wiring, smart setup, reliable coverage.",
+};
 export default function SecurityCamerasPage() {
   return (
     <main className="pt-10">

@@ -1,3 +1,9 @@
+
+export const metadata = {
+  title: "Smart Home Installation Vancouver | Nestora",
+  description:
+    "Smart thermostat, lighting, TV mounting, and smart home installation services across Greater Vancouver.",
+};
 export default function SmartHomePage() {
   return (
     <main className="bg-black text-white">
