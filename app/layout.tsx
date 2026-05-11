@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import Script from "next/script"; 
 import { Inter } from "next/font/google";
 import "./globals.css";
+
 import SiteHeader from "@/app/components/SiteHeader";
 import SiteFooter from "@/app/components/SiteFooter";
+
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,7 +14,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Nestora | Premium Renovation & Tech",
-  description: "Premium renovation, smart home, and security solutions in Vancouver.",
+  description:
+    "Premium renovation, smart home, and security camera services in Vancouver.",
 };
 
 export default function RootLayout({
@@ -22,26 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     <body className={inter.className}>
-  <SiteHeader />
-  {children}
-  <SiteFooter />
+      <body className={inter.className}>
+        <SiteHeader />
+        {children}
+        <SiteFooter />
 
-  <Script
-    src="https://www.googletagmanager.com/gtag/js?id=G-Y5KZ8TZXYW"
-    strategy="afterInteractive"
-  />
-
-  <Script id="google-analytics" strategy="afterInteractive">
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-Y5KZ8TZXYW');
-    `}
-  </Script>
-</body>
+        <GoogleAnalytics gaId="G-Y5KZ8T7ZYW" />
+      </body>
     </html>
   );
 }
