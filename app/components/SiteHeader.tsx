@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -80,18 +81,28 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        {/* Logo => Home */}
-        <Link href="/" className="flex flex-col leading-none overflow-hidden">
-  <span className="text-x1 md:text-3xl font-bold tracking-[0.12em] text-white">
-    Nestora
-  </span>
-  <span className="mt-1 text-[10px] md:text-xs tracking-[0.22em] text-white/60">
-    BUILD • REFLINE • EXECUTION
-  </span>
-  
-  
-</Link>
+    {/* Logo => Home */}
+<Link href="/" className="flex items-center gap-3">
+  <div className="rounded-xl bg-white p-1.5">
+    <Image
+      src="/images/logo.png"
+      alt="Nestora Renovation Logo"
+      width={64}
+      height={64}
+      className="h-12 w-auto"
+      priority
+    />
+  </div>
 
+  <div className="hidden sm:block leading-none">
+    <span className="block text-lg md:text-2xl font-bold tracking-[0.12em] text-white">
+      NESTORA
+    </span>
+    <span className="mt-1 block text-[9px] md:text-[11px] tracking-[0.22em] text-white/60">
+      RENOVATION
+    </span>
+  </div>
+</Link>
         {/* Desktop nav همیشه نمایش داده شود (Menu حذف شد) */}
      <nav className="flex items-center gap-7">
   <NavLink href="/" active={pathname === "/"}>
