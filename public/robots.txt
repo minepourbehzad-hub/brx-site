@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nestorarenovation.ca
+
+# Sitemaps
+Sitemap: https://nestorarenovation.ca/sitemap.xml
