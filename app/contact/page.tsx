@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
+import { sendGAEvent } from "@next/third-parties/google";
 function Input({
   label,
   placeholder,
@@ -142,7 +142,10 @@ export default function ContactPage() {
         setError(data?.error || "Sending failed. Try again.");
         return;
       }
-
+sendGAEvent("event", "generate_lead", {
+  currency: "CAD",
+  value: 1,
+});
       setSent(true);
 
       setForm({
