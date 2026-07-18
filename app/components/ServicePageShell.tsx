@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import BeforeAfterSlider from "./BeforeAfterSlider";
 
 export default function ServicePageShell({
@@ -73,19 +74,23 @@ export default function ServicePageShell({
               Nestora 
             </span>
           </div>
-<img
-  src="/images/renovation/featured.jpeg"
+<Image
+  src="/images/renovation/featured1.jpg"
   alt="Featured renovation project"
+  width={1600}
+  height={900}
   className="h-[260px] w-full object-cover md:h-[460px]"
-  loading="lazy"
+  sizes="100vw"
 />
           <div className="mt-6 overflow-hidden rounded-[28px] border border-white/10 bg-white/5">
-            <img
-              src="/images/renovation/future 2.jpg"
-              alt="Featured renovation project"
-              className="h-[260px] w-full object-cover md:h-[460px]"
-              loading="lazy"
-            />
+           <Image
+  src="/images/renovation/future 2.jpg"
+  alt="Featured renovation project"
+  width={1600}
+  height={900}
+  className="h-[260px] w-full object-cover md:h-[460px]"
+  sizes="100vw"
+/>
           </div>
 
         </section>
