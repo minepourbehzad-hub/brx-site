@@ -140,16 +140,17 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="relative mx-auto overflow-hidden rounded-3xl border border-white/10 bg-black/40 w-full max-w-[1400px] h-[420px] sm:h-[520px] md:h-[460px]">
-             <Image
-  src="/images/4 (1).webp"
-  alt="Nestora renovation and smart home services"
-  width={1600}
-  height={900}
-  className="h-full w-full object-cover bg-black"
-  sizes="100vw"
-  priority
-/>
+  <div className="relative mx-auto overflow-hidden rounded-3xl border border-white/10">
+  <Image
+    src="/images/4 (1).webp"
+    alt="Nestora renovation and smart home services"
+    width={1600}
+    height={900}
+    className="h-full w-full object-cover bg-black"
+    sizes="100vw"
+    priority
+  />
+</div>
               {/* optional overlay فقط برای اینکه عکس شیک‌تر دیده بشه */}
               <div className="pointer-events-none absolute inset-0 bg-black/15" />
 
