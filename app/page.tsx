@@ -148,7 +148,7 @@ export default function Home() {
     height={900}
     className="h-full w-full object-cover bg-black"
     sizes="100vw"
-    priority
+    fetchPriority="high"
   />
 </div>
               {/* optional overlay فقط برای اینکه عکس شیک‌تر دیده بشه */}
